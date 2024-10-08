@@ -51,13 +51,15 @@ svg {
 
 .bodyBgColor {
     background-color: var(--primary-color);
+    height:max-content;
 }
 
 #body {
 
-    height: 90vh;
+    height: fit-content;
     max-width: 80%;
     margin: auto;
+    background-color: var(--primary-color);
 
     #filter-id {
         display: flex;
@@ -90,6 +92,7 @@ svg {
         flex-wrap: wrap;
         padding-top: 70px;
         gap: 20px;
+        background-color: var(--primary-color);
 
 
 
